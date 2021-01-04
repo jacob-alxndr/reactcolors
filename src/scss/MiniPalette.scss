@@ -1,0 +1,29 @@
+.Palette-mini {
+  border-radius: 5px;
+  background-color: var(--transparent-primary);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem;
+
+  &__container {
+    border-radius: 5px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    // width: 100%;
+    height: 100%;
+  }
+
+  &__heading {
+    color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem;
+  }
+  &__color {
+    width: 100%;
+    height: 100%;
+  }
+}

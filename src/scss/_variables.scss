@@ -1,0 +1,32 @@
+:root {
+  // COLORS
+  --color-primary: #232527;
+  --transparent-primary: #e3edfda4;
+  --color-secondary: #f4f4f4;
+  --white: #f8f8f8;
+  --transparent: #ffffff3d;
+  --transparent-dark: #ffffff5e;
+  --grey: #e0e0e0;
+  --grey1: #e0e0e0;
+  --grey2: #8b8b8b;
+  --grey3: #5c5c5c;
+  --black-light: rgb(48, 48, 48);
+  --black: rgb(41, 41, 41);
+
+  //TYPE SCALE
+  --h1: calc(4.5rem + 0.52vw);
+  --h2: calc(3rem + 0.52vw);
+  --h3: calc(2.2rem + 0.52vw);
+  --h4: calc(1.6rem + 0.52vw);
+  --h5: calc(1.4rem + 0.52vw);
+  --p-small: calc(1.3rem + 0.12vw);
+
+  //SPACING
+  --xxs: 0.5rem;
+  --xs: 1rem;
+  --small: 2rem;
+  --medium: 4rem;
+  --large: 6rem;
+  --xl: 8rem;
+  --xxl: 10rem;
+}

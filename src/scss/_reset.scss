@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url(../assets/fonts/Bould/Bould-Thin.otf);
+  font-family: "Bould";
+  font-weight: 100;
+}
+
+@font-face {
+  src: url(../assets/fonts/Bould/Bould-Regular.otf);
+  font-family: "Bould";
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(../assets/fonts/Bould/Bould-Medium.otf);
+  font-family: "Bould";
+  font-weight: 500;
+}
+
+@font-face {
+  src: url(../assets/fonts/Bould/Bould-Bold.otf);
+  font-family: "Bould";
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  font-family: "Bould", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

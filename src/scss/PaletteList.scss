@@ -1,0 +1,63 @@
+// <div className="PaletteList">
+// <h1>React Palettes</h1>
+// <div className="PaletteList__palettes">
+//   {seedPalettes.map((palette) => {
+//     return (
+//       <div key={palette.paletteName} className="Palette-mini">
+//         <div className="Palette-mini__container">
+//           {palette.colors.map((c) => {
+//             return (
+//               <div
+//                 key={c.color}
+//                 style={{
+//                   backgroundColor: c.color,
+//                   width: "10px",
+//                   height: "10px",
+//                 }}
+//                 className="Palette-mini__color"
+//               ></div>
+
+.PaletteList {
+  background: var(--color-primary);
+  // background-image: linear-gradient(var(--white) 0.1vw, transparent 0.1vw),
+  //   linear-gradient(90deg, var(--white) 0.1vw, transparent 0.1vw);
+  height: 100%;
+  width: 100%;
+  background-size: 5vw 5vw;
+  padding: 1rem;
+  &__title {
+    padding-bottom: 2rem;
+    color: var(--white);
+    font-weight: 400;
+    // border: 0.1rem solid var(--white);
+    // border-bottom-width: 0;
+  }
+  &__container {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: var(--xxs);
+
+    a {
+      text-decoration: underline;
+      color: var(--white);
+    }
+  }
+  &__palettes {
+    background-color: var(--color-primary);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 0rem;
+    // height: 80vh;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
