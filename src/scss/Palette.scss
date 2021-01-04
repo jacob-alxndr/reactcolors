@@ -36,16 +36,21 @@
   overflow: hidden;
   position: relative;
   // z-index: 300;
+  @media (max-width: 30rem) {
+    & {
+      height: 100vh;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0rem;
+      overflow: visible;
+      // display: flex;
+      // // justify-items: baseline;
+      // flex-direction: column;
+    }
+  }
 
   &--single {
     @extend .Palette__colors;
     grid-template-columns: repeat(10, 1fr);
-  }
-}
-
-@media (max-width: 30rem) {
-  .Palette__colors {
-    display: flex;
-    flex-direction: column;
   }
 }
