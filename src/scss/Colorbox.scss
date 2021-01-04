@@ -123,7 +123,7 @@
   &:hover .Colorbox__copy-button {
     opacity: 1;
   }
-  @media screen and (max-width: 30rem) {
+  @media (max-width: 30rem) {
     & {
       width: 100%;
       &__overlay-message {
