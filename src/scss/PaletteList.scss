@@ -22,10 +22,13 @@
   // background: red;
   // background-image: linear-gradient(var(--white) 0.1vw, transparent 0.1vw),
   //   linear-gradient(90deg, var(--white) 0.1vw, transparent 0.1vw);
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   background-size: 5vw 5vw;
   padding: 1rem;
+  @media (max-width: 30rem) {
+    height: 100%;
+  }
   &__title {
     padding-bottom: 2rem;
     color: var(--white);
